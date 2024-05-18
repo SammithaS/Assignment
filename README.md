@@ -59,7 +59,7 @@ In this repository, `DevRev API utilization` folder contains code for creating w
    npm run start:watch -- --functionName=function_1 --fixturePath=function_1_event.json
    ```
 10. You will see a `build.tar.gz` file is created and you can provide it while creating the snap_in_version.
-11. Install following prequisites. Refer [DevRev documentation](https://developer.devrev.ai/about/for-developers) for more information:
+11. Install following prequisites( Refer [DevRev documentation](https://developer.devrev.ai/about/for-developers) for more information):
   
    ```
    Install DevRev CLI
@@ -130,11 +130,11 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 **This snap-in is specifically developed for CLI which provides various features while cloning.**
 
 * After it runs, you can enter two commands either `clone-work-item` or `clone-work-item m`.
-* **clone-work-item** is used to create single work item either ticket or issue.
+* **clone-work-item** is used to create single work item either `ticket` or `issue`.
 * **clone-work-item m** is used to create multiple work items at once.
-* You can also choose between ticket or issue in the next step.
-* It will ask whether you know the work-id; if not, it will provide a command to display a list of work items in CLI.
-* Otherwise, it will ask for the work-id and proceed to cloning.
+* You can also choose between `ticket` or `issue` in the next step.
+* It will ask whether you know the `work-id`; if not, it will provide a command to display a **list** of work items in CLI.
+* Otherwise, it will ask for the `work-id` and proceed to cloning.
 * After providing the work-id, it also has a feature to customize the properties. If you want to customize, you can; otherwise, it proceeds to cloning without customizing.
 * In multiple cloning, you have to provide a list of work-ids separated by commas. It will clone every work-id provided in the command line.
 
