@@ -10,20 +10,26 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 3. Create `DevRev Oraganization`.
 4. Generate a Personal Access Token(PAT) and store it somewhere safe.
 5. Clone the repository:
+
    ```
    https://github.com/SammithaS/Assignment.git
    ```
-6. Click on respective folder.
-7. Replace with your token and owner id.
-8. Run the `index.html` file in the local server:
+7. Click on respective folder.
+8. Replace with your token and owner id.
+9. Run the `index.html` file in the local server:
+
    ```
    http://127.0.0.1:5500/index.html
    ```
-9. Now you can enter properties information in the input fields and submit.
-10. Work-item is created successfully.
+10. Now you can enter properties information in the input fields and submit.
+11. Work-item is created successfully.
 
 ## Snapshot
+
 ![image](https://github.com/SammithaS/Assignment/assets/121117205/170ed1a8-8965-4cae-8467-2ca205b289fa)
+
+
+
 # Hello-world snap-in(Priority Assigment)
 `Priority Assignment Automation(Hello-world snap-in)` contains code for automating priority assignment. It gets triggered each time new work-item is created.
 
@@ -33,48 +39,56 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 ### Steps to run
 
 1. Clone the repository:
+
    ```
    https://github.com/SammithaS/Assignment.git
    ```
-2. Click on respective folder.
-3. Navigate to root of project directory.
-4. In the `code` directory create .env file and initialize your token.
-5. Open terminal and enter these commands to run (Make sure you have `Node.js` in your system):
+3. Click on respective folder.
+4. Navigate to root of project directory.
+5. In the `code` directory create .env file and initialize your token.
+6. Open terminal and enter these commands to run (Make sure you have `Node.js` in your system):
+
    ```
    npm install
    npm run build
    npm run package
    ```
-6. You can also test locally if you want to make any changes using this command:
+8. You can also test locally if you want to make any changes using this command:
+
    ```
    npm run start:watch -- --functionName=function_1 --fixturePath=function_1_event.json
    ```
-7. You will see a `build.tar.gz` file is created and you can provide it while creating the snap_in_version.
-8. Install following prequisites. Refer [DevRev documentation](https://developer.devrev.ai/about/for-developers) for more information:
+10. You will see a `build.tar.gz` file is created and you can provide it while creating the snap_in_version.
+11. Install following prequisites. Refer [DevRev documentation](https://developer.devrev.ai/about/for-developers) for more information:
+  
    ```
    Install DevRev CLI
    Install jq
    Install DevRev SDK
    ```
-9. To authenticate using `DevRev CLI`, run the following command:
-    ```
+11. To authenticate using `DevRev CLI`, run the following command:
+
+     ```
     devrev profiles authenticate -o <dev-org-slug> -u <youremail@yourdomain.com>
     ```
-10. To create a `snap-in package`, run the following command:
-    ```
+13. To create a `snap-in package`, run the following command:
+
+     ```
     devrev snap_in_package create-one --slug my-first-snap-in | jq .
     ```
-11. To create a `snap-in version`, run the following command:
-    ```
+15. To create a `snap-in version`, run the following command:
+
+     ```
     devrev snap_in_version create-one --manifest manifest.yaml --archive build.tar.gz | jq
     ```
-12. Now run:
-    ```
+17. Now run:
+
+     ```
     devrev snap_in draft
     ```
-13. The snap-in is installed in draft state. It may require some configuration before it can be deployed.
+19. The snap-in is installed in draft state. It may require some configuration before it can be deployed.
     >In this case you have to enter priority which is used to assign priority automatically when the issue is created.
-14. Once you have provided the required configuration, the Deploy snap-in button is enabled on the UI. Click on it to deploy the snap-in. That’s it, the snap-in should now be active and ready to use.
+20. Once you have provided the required configuration, the Deploy snap-in button is enabled on the UI. Click on it to deploy the snap-in. That’s it, the snap-in should now be active and ready to use.
 
 ## Snapshots 
 
@@ -94,18 +108,21 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 ### Steps to run
 
 1. Clone the repository:
-   ```
+
+    ```
    https://github.com/SammithaS/Assignment.git
    ```
-2. Click on respective folder.
-3. Navigate to root of project directory.
-4. In the `code` directory create .env file and initialize your token.
-5. Open terminal and test locally if you want to make any changes using this command:
-   ```
+3. Click on respective folder.
+4. Navigate to root of project directory.
+5. In the `code` directory create .env file and initialize your token.
+6. Open terminal and test locally if you want to make any changes using this command:
+
+    ```
    npm install
    npm run start:watch -- --functionName=function_1 --fixturePath=function_1_event.json
    ```
-6. Once test is successful you can run for production:
+8. Once test is successful you can run for production:
+
    ```
     npm run start:production -- --functionName=function_1 --fixturePath=function_1_event.json
    ```
