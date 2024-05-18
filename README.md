@@ -1,8 +1,9 @@
 # Utilizing Devrev API
-
+This repository contains code for creating work items using the Devrev API. Devrev is a platform designed to streamline work management, and this script helps automate the creation of work items directly through their API.
 
 ### Tech stack
-   HTML,CSS,JavaScript
+   HTML, CSS, JavaScript
+   
 ### Steps
 1. Create a `DevRev account` or log in.
 2. Create `Devrev Oraganization`.
@@ -25,6 +26,7 @@
 
 ### Tech stack
    TypeScript
+   
 ### Steps
 1. Clone the repository
 ```
