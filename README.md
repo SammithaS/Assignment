@@ -4,7 +4,7 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 ### Tech stack
    HTML, CSS, JavaScript
    
-### Steps
+### Steps to run
 1. Create a `DevRev account` or log in.
 2. Create `DevRev Oraganization`.
 3. Generate a Personal Access Token(PAT) and store it somewhere safe.
@@ -22,13 +22,14 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 9. Work-item is created successfully.
 
 ### snapshot
-
+![image](https://github.com/SammithaS/Assignment/assets/121117205/170ed1a8-8965-4cae-8467-2ca205b289fa)
 # Hello-world snap-in(Priority Assigment)
-`Priority Assignment Automation(Hello-world snap-in)` contains code for automating priority 
+`Priority Assignment Automation(Hello-world snap-in)` contains code for automating priority assignment. It gets triggered each time new work-item is created.
+
 ### Tech stack
    TypeScript
    
-### Steps
+### Steps to run
 1. Clone the repository:
    ```
    https://github.com/SammithaS/Assignment.git
@@ -75,12 +76,16 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 
 ### snapshots 
 
+![image](https://github.com/SammithaS/Assignment/assets/121117205/91842f8c-9234-45ae-b20e-9e734fe1134b)
+![image](https://github.com/SammithaS/Assignment/assets/121117205/4413de0f-26af-47de-b3cb-e24878be0d0c)
+![image](https://github.com/SammithaS/Assignment/assets/121117205/74169f48-aa0c-4a9a-8642-a221e643c90b)
+
 # Cloning Snap-in for CLI
 
 ### Tech stack
    TypeScript
    
-### Steps
+### Steps to run
 1. Clone the repository:
    ```
    https://github.com/SammithaS/Assignment.git
@@ -95,10 +100,26 @@ In this repository, `DevRev API utilization` folder contains code for creating w
    ```
 6. Once test is successful you can run for production:
    ```
-    npm run start:watch -- --functionName=function_1 --fixturePath=function_1_event.json
+    npm run start:production -- --functionName=function_1 --fixturePath=function_1_event.json
    ```
 
 **This snap-in is specifically developed for CLI which provides various features while cloning.**
 * After it runs, you can enter two commands either `clone-work-item` or `clone-work-item m`.
-* 
+* **clone-work-item** is used to create single work item either ticket or issue.
+* **clone-work-item m** is used to create multiple work items at once.
+* You can also choose between ticket or issue in the next step.
+* It will ask whether you know the work-id; if not, it will provide a command to display a list of work items in CLI.
+* Otherwise, it will ask for the work-id and proceed to cloning.
+* After providing the work-id, it also has a feature to customize the properties. If you want to customize, you can; otherwise, it proceeds to cloning without customizing.
+* In multiple cloning, you have to provide a list of work-ids separated by commas. It will clone every work-id provided in the command line.
+  
+![image](https://github.com/SammithaS/Assignment/assets/121117205/0d093514-3457-4b75-9b72-6acb21bdc4e3)
+
+![image](https://github.com/SammithaS/Assignment/assets/121117205/1231722d-6833-4223-a6d0-85af0223b700)
+
+
+
+
+
+
 
