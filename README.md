@@ -112,7 +112,8 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 * Otherwise, it will ask for the work-id and proceed to cloning.
 * After providing the work-id, it also has a feature to customize the properties. If you want to customize, you can; otherwise, it proceeds to cloning without customizing.
 * In multiple cloning, you have to provide a list of work-ids separated by commas. It will clone every work-id provided in the command line.
-  
+
+**Below is the example**  
 ![image](https://github.com/SammithaS/Assignment/assets/121117205/0d093514-3457-4b75-9b72-6acb21bdc4e3)
 
 ![image](https://github.com/SammithaS/Assignment/assets/121117205/1231722d-6833-4223-a6d0-85af0223b700)
