@@ -39,7 +39,7 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 
 **The features are:**
 * Assigns priority automatically when issue is created.
-* Can change priority in configuration of snap-in.
+* Can change priority of automation in configuration of snap-in.
   
 ### Tech stack
    TypeScript
