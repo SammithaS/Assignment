@@ -35,10 +35,10 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 
 
 # Hello-world snap-in(Priority Assigment)
-`Priority Assignment Automation(Hello-world snap-in)` contains code for automating priority assignment. It gets triggered each time new work-item is created.
+`Priority Assignment Automation(Hello-world snap-in)` contains code for automating priority assignment. It gets triggered each time new issue is created.
 
 **The features are:**
-* Assigns priority automatically when work-item is created.
+* Assigns priority automatically when issue is created.
 * Can change priority in configuration of snap-in.
   
 ### Tech stack
