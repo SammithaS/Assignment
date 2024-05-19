@@ -101,7 +101,14 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 ![image](https://github.com/SammithaS/Assignment/assets/121117205/74169f48-aa0c-4a9a-8642-a221e643c90b)
 
 # Cloning Snap-in for CLI
+The folder includes the source code for a cloning snap-in. This helps users to duplicate or clone existing work items, such as tickets or issues, within a system CLI.
 
+**The special features are:**
+* Clone single or multiple work-items.
+* List all work-item's ids in CLI.
+* Customize properties such as title, description.
+* Choose either ticket or issue.
+  
 ### Tech stack
    TypeScript
    
