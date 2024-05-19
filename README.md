@@ -15,7 +15,7 @@ In this repository, `DevRev API utilization` folder contains code for creating w
    https://github.com/SammithaS/Assignment.git
    ```
 7. Click on respective folder.
-8. Replace with your token and owner id.
+8. Replace with your token and owner id in `workItem.js file`.
 9. Run the `index.html` file in the local server:
 
    ```
