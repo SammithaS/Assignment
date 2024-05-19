@@ -1,6 +1,10 @@
 # Utilizing DevRev API
 In this repository, `DevRev API utilization` folder contains code for creating work items using the Devrev API. DevRev is a platform designed to streamline work management, and this script helps in the creation of work items directly through their API.
 
+**The features are:**
+* Create work-item(ticket or issue).
+* WebUI based, easy to use.
+
 ### Tech stack
    HTML, CSS, JavaScript
    
@@ -33,6 +37,10 @@ In this repository, `DevRev API utilization` folder contains code for creating w
 # Hello-world snap-in(Priority Assigment)
 `Priority Assignment Automation(Hello-world snap-in)` contains code for automating priority assignment. It gets triggered each time new work-item is created.
 
+**The features are:**
+* Assigns priority automatically when work-item is created.
+* Can change priority in configuration of snap-in.
+  
 ### Tech stack
    TypeScript
    
